@@ -2,7 +2,7 @@
 """
 Created on Wed Jan  6 17:08:56 2021
 
-@author: tpngu28
+@author: Chi Nguyen
 
 Code to calculate the dominant connection length 
 Input: 
