@@ -7,7 +7,7 @@ Created on Wed Jan  6 17:08:56 2021
 Code to calculate the dominant connection length 
 Input: 
 1.Raster layer of water depth
-2.Raster layer of discharge in x and y directions
+2.Raster layers of discharge in x and y directions
 
 """
 
@@ -149,10 +149,6 @@ def PlotRasters(raster, Legend):
 ############################################################################ 
 ############# plot figure
 #read the input file
-#file_path_wd = 'E:\\Narran3_0045_007_newDEM_04\\result\\res-0030.wd' 
-#file_path_Qx = 'E:\\Narran3_0045_007_newDEM_04\\result\\res-0030.Qx'    
-#file_path_Qy = 'E:\\Narran3_0045_007_newDEM_04\\result\\res-0030.Qy'
-
 
 file_path_wd = 'E:\\Flood_2013_model\\result\\res-0290.wd' 
 file_path_Qx = 'E:\\Flood_2013_model\\result\\res-0290.Qx'    
