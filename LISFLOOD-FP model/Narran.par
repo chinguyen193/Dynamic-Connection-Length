@@ -1,0 +1,27 @@
+# Classic Buscot reach test case
+# single channel with floodplain
+# this run uses the diffusive river channel solver
+#
+# Mark Trigg 1/7/2008
+#
+DEMfile         DEM_edit_04.asc
+resroot         res
+dirroot         E:\Flood_2013_model\result
+sim_time        6048000
+initial_tstep   1.0
+massint         3600
+saveint         14400
+checkpoint     
+manningfile     Manning_0045_007.asc
+bcifile         Narran.bci
+bdyfile         Narran.bdy
+elevoff
+qoutput
+#startfile      res-0392wd.asc
+#gaugefile 	Narran.gauge
+#depthoff
+#diffusive
+#adaptoff
+comp_out
+acceleration 
+
